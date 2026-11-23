@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+audit.log
+inbox/
+outbox/
+port
+*.log
+.DS_Store

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agy-bridge": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": ["C:\\path\\to\\agy-bridge\\src\\server.mjs"],
+      "env": {
+        "AGY_PROJECT_DIR": "C:\\path\\to\\your\\project"
+      }
+    }
+  }
+}

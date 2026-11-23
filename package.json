@@ -1,0 +1,29 @@
+{
+  "name": "agy-bridge",
+  "version": "1.0.0",
+  "description": "Local, dependency-free MCP bridge from Claude to the Antigravity desktop app",
+  "type": "module",
+  "main": "src/server.mjs",
+  "bin": { "agy-bridge": "src/server.mjs" },
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node src/server.mjs", "test": "node --test test/bridge.test.mjs" },
+  "keywords": [
+    "claude-desktop",
+    "antigravity",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "claude-bridge",
+    "claude-gravity-bridge",
+    "agentic-ai",
+    "autonomous-agents",
+    "developer-tools",
+    "claude-tools",
+    "cdp",
+    "chrome-devtools-protocol",
+    "desktop-automation",
+    "llm-agents"
+  ],
+  "license": "MIT"
+}
